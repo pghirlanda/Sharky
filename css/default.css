@@ -1,0 +1,71 @@
+html, body {
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#myCanvas {
+    border: 1px solid red;
+    width: 99%;
+    height: 99%;
+}
+
+#HOME {
+    width: 100%; 
+    height: 100%;
+    background-image: url(../assets/images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#buttonPlay {
+    background : no-repeat center/35% url(../assets/images/bouton_play.png);
+    position: fixed;
+    height: 15%;
+    width: 15%;
+    left: 66%;
+    top: 80%;
+}
+
+#buttonPlay:hover {
+    background: no-repeat center/35% url(../assets/images/fond_hover.png);
+    cursor: pointer;
+    position: fixed;
+    height: 15%;
+    width: 25%;
+    left: 60%;
+    top: 80%;
+}
+
+#bouttonRegle {
+    background : no-repeat center/100% url(../assets/images/bouton_regle.png);
+    position: fixed;
+    height: 15%;
+    width: 15%;
+    left: 75%;
+    top: 5%;
+} 
+
+#bouttonRegle:hover{
+    background: no-repeat center/20% url(../assets/images/regles_ecrite.png);
+    position: fixed;
+    height: 130%;
+    width: 150%;
+    left: -60%;
+    top: -30%;
+}
+
+#content { 
+    position: relative;
+}
+
+#score { 
+    position: absolute;
+    top: 1%; 
+    left: 1%;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
